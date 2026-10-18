@@ -109,6 +109,13 @@ int main(void)
 	*TIM4_CR1 |= (1U << 0);
 
 
+    
+    
+
+
+
+
+
 	// your code goes here
 	while(1)
 	{
