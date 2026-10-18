@@ -17,7 +17,7 @@
  */
 
 #include <stdint.h>
-
+//ASSUMING PART 3 WORKS ... :(
 
 uint32_t color = 0;
 
