@@ -221,7 +221,7 @@ void EXTI15_10_IRQHandler(void) {
 	uint32_t EXTI_PR1 = 0x40010400;
 	uint32_t EXTI_PR1_OFFSET = 0x14;
 	uint32_t* PR1 = (uint32_t*)(EXTI_PR1 + EXTI_PR1_OFFSET);
-	uint32_t* GPIOC_IDR = (uint32_t*)(0x48000800 + 0x14); //TO SEE THE INPUT DATA
+	uint32_t* GPIOC_IDR = (uint32_t*)(0x48000800 + 0x10); //TO SEE THE INPUT DATA
 
 	//what to do when the interrupt happens
 	//need to clear the pending flag
